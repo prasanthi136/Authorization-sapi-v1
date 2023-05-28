@@ -1,0 +1,21 @@
+#%RAML 1.0 DataType
+type: object
+properties:
+  phoneNumber:
+    required: true
+    type: string
+    description: Customer mobile number to send OTP
+    example: "1234567890"
+  phoneCountry:
+    required: true
+    type: string
+    description: Country Code of Mobile
+    example: "91"
+  otp:
+    required: true
+    type: string
+    description: OTP retrieved from object store
+    example: "123456"
+  
+
+      
